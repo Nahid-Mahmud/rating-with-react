@@ -49,6 +49,9 @@ const StarRating = ({ rating: star = 10 }) => {
       <p className="text-3xl font-poppins text-white">
         Your rating is : <span className="text-green-600"> {rating} </span>
       </p>
+      <button className="bg-slate-200 text-blue-950 text-xl rounded-md  p-2 font-poppins" onClick={() => setRating(0)}>
+        Reset Rating
+      </button>
     </div>
   );
 };
