@@ -23,7 +23,7 @@ const StarRating = ({ rating: star = 10 }) => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen gap-5 bg-blue-950">
-      <div className="flex">
+      <div className="flex gap-1">
         {ratingArr?.map((_, index) => {
           index = index + 1;
           // console.log(index);
